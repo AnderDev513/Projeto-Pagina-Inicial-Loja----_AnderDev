@@ -97,22 +97,21 @@ header {
 @media screen and (max-width: 900px){
     .left-box {
         width: 100%;
-        right: 50%;
         padding: 0%;
         margin: 0%;
     }
 
     .right-box {
         display: block;
-        right: auto;
-        width: 100%;
-        position: sticky;
-        padding: 40px;
+        width: auto;
+        height: auto;
+        position: static;
+        padding: 15%;
     }
 
     .logo-img {
         position: static;
-        width: 90%;
+        width: 100%;
     }
 
     header {
